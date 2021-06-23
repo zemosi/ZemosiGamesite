@@ -1,7 +1,7 @@
 import React from 'react';
-import { Fade, Flip } from 'react-reveal';
+import { Fade } from 'react-reveal';
 import Layout from "../common/components/layout";
-import { Box, Text, Container, List, ListItem, ListIcon, Heading, Center, Image, VStack, HStack, Button, Link, Flex, Spacer, Grid, GridItem } from '@chakra-ui/react';
+import { Box, Text, Container, List, ListItem, ListIcon, Heading, Center, Image, VStack, HStack, Flex, Grid, GridItem } from '@chakra-ui/react';
 import { CheckCircleIcon } from '@chakra-ui/icons';
 
 import image1 from "../assets/images/esports-img-1.png";

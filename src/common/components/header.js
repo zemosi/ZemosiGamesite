@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Box, Heading, Flex, Button, useDisclosure, Spacer, color } from '@chakra-ui/react';
+import React from 'react';
+import { Box, Heading, Flex, Button, useDisclosure, Spacer} from '@chakra-ui/react';
 import {
     Modal,
     ModalOverlay,
@@ -12,7 +12,6 @@ import { Link } from 'react-router-dom';
 
 function Header(props) {
     const { isOpen, onOpen, onClose } = useDisclosure()
-    const { innerWidth: width, innerHeight: height } = window;
 
     return ( 
         <>
