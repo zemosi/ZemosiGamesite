@@ -1,7 +1,7 @@
 import React from 'react';
 import { Fade, Flip } from 'react-reveal';
 import Layout from "../common/components/layout";
-import { Box, Text, Container, LinkBox, LinkOverlay, Heading, Center, Image, VStack, HStack, Button, Link, Flex, Spacer, Grid, GridItem } from '@chakra-ui/react';
+import { Box, Text, Container, LinkBox, LinkOverlay, Heading, Center, Image, VStack, HStack, Button, Grid, GridItem } from '@chakra-ui/react';
 
 import image1 from '../assets/images/home-img-1.png';
 import imageDota from '../assets/images/dota-logo.png';
